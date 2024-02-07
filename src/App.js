@@ -25,11 +25,7 @@ export default () => {
 
   const [chatlist, setChatList] = useState([]);
   const [activeChat, setActiveChat] = useState({});
-  const [user, setUser] = useState({
-    id: '2eh9U4jaLLTtPasd5j3d',
-    avatar: 'https://styles.redditmedia.com/t5_3x4wyy/styles/profileIcon_6t1u9z1dbfn61.jpg?width=256&height=256&frame=1&auto=webp&crop=256:256,smart&s=d469c42114d8435549ba14d082bf7e118ee8df22',
-    name: 'Eu'
-  });
+  const [user, setUser] = useState({});
   const [showNewChat, setShowNewChat] = useState(false);
 
   useEffect(()=>{
