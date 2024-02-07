@@ -1,0 +1,30 @@
+.login{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.google{
+    margin: 10px;
+}
+.facebook{
+    margin: 10px;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    width: 500px;
+    height: 50px;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
