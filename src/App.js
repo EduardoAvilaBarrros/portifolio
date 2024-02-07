@@ -7,7 +7,7 @@ import ChatListItem from "./components/ChatListItem";
 import ChatIntro from "./components/ChatIntro";
 import ChatWindow from "./components/ChatWindow";
 import NewChat from "./components/NewChat";
-import Login from "./components/Login/Login";
+import Login from "./components/Login";
 
 import DonutLargeIcon from '@mui/icons-material/DonutLarge';
 import ChatIcon from '@mui/icons-material/Chat';
@@ -23,7 +23,7 @@ export default () => {
 
   const [chatlist, setChatList] = useState([]);
   const [activeChat, setActiveChat] = useState({});
-  const [user, setUser] = useState({});
+  const [user, setUser] = useState(null);
   const [showNewChat, setShowNewChat] = useState(false);
 
   useEffect(()=>{

@@ -2,7 +2,7 @@ import React from "react";
 import './login.css';
 
 import { signInWithPopup } from 'firebase/auth';
-import { auth, provider } from "../../Api";
+import { auth, provider } from "../Api";
 
 import GoogleIcon from '@mui/icons-material/Google';
 import FacebookIcon from '@mui/icons-material/Facebook';
