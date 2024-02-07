@@ -9,8 +9,6 @@ import ChatWindow from "./components/ChatWindow";
 import NewChat from "./components/NewChat";
 import Login from "./components/Login/Login";
 
-import {User} from 'firebase/auth'
-
 import DonutLargeIcon from '@mui/icons-material/DonutLarge';
 import ChatIcon from '@mui/icons-material/Chat';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
